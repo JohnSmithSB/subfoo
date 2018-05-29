@@ -1,0 +1,1084 @@
+Nov 26, 2015 4:00:53 PM com.smartbear.ccollab.CLI enableDebug
+FINE: client version: Collaborator version 9.4.9400.001
+Nov 26, 2015 4:00:53 PM com.smartbear.ccollab.CLI enableDebug
+FINE: Parsed command from arguments: [admin, config, remote-system-integration, create, jira, A New JIRA, {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}]
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logVmMemory
+FINE: VM Max Memory: 259522560
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logVmMemory
+FINE: VM Current Memory: 16252928
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logSystemProperties
+FINE: Logging System Properties
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.runtime.name:  Java(TM) SE Runtime Environment
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   com.microsoft.tfs.jni.native.base-directory:  C:\Program Files\Collaborator Client\/ui/plugins/com.smartbear.collaborator_9.4.9400.001/libs/native
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.moduleName:  C:\Program Files\Collaborator Client\ccollab.exe
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.semaphoreName:  Local\c:_program_files_collaborator_client_ccollab.exe0
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.boot.library.path:  c:\program files\java\jre1.8.0_66\bin
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.version:  25.66-b18
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.vendor:  Oracle Corporation
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor.url:  http://java.oracle.com/
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.consoleCodepage:  cp866
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   path.separator:  ;
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.util.logging.config.file:  C:\Program Files\Collaborator Client\/ccollab.logging.properties
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.name:  Java HotSpot(TM) Client VM
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   file.encoding.pkg:  sun.io
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.country:  US
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.script:  
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.os.patch.level:  Service Pack 1
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.exeDir:  C:\Program Files\Collaborator Client\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.name:  Java Virtual Machine Specification
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.dir:  C:\TMP
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.runtime.version:  1.8.0_66-b18
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.awt.graphicsenv:  sun.awt.Win32GraphicsEnvironment
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.endorsed.dirs:  c:\program files\java\jre1.8.0_66\lib\endorsed
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.arch:  x86
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.io.tmpdir:  C:\Users\sataev\AppData\Local\Temp\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   line.separator:  
+
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.vendor:  Oracle Corporation
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.variant:  
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.tempDir:  
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.name:  Windows 7
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.jnu.encoding:  Cp1251
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.library.path:  C:\ProgramData\Oracle\Java\javapath;__SVN__;C:\Python27\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Collaborator Client;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseHg\;C:\Program Files\Skype\Phone\;c:\program files\java\jre1.8.0_66\bin
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.launcherId:  2
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.name:  Java Platform API Specification
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.class.version:  52.0
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.management.compiler:  HotSpot Client Compiler
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.isInstall4j:  true
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   os.version:  6.1
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.swt:  false
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.home:  C:\Users\sataev
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.timezone:  Europe/Moscow
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.awt.printerjob:  sun.awt.windows.WPrinterJob
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   file.encoding:  Cp1251
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.version:  1.8
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.class.path:  C:\Program Files\Collaborator Client\.install4j\i4jruntime.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\asm-all-3.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\com.microsoft.tfs.sdk-11.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-beanutils-core.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-codec-1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-httpclient.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-io.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-lang.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\cxf-2.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-activation_1.1_spec-1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-annotation_1.0_spec-1.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-jaxws_2.2_spec-1.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-ws-metadata_2.0_spec-1.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\guava-11.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\gwt-user.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-annotations-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-core-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-databind-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-module-mrbean-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jaxb-api-2.2.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jaxb-impl-2.2.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jsr173_1.0_api.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jsr173_1.0_ri.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\mksapi.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\neethi-2.0.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\saaj-api-1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\saaj-impl-1.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-client-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-datamodel.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-soap.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-code-analysis.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-scm.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\stax2-api-3.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-core-asl-4.0.8.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-core-2.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-rng-datatype-1.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-xsdlib-2.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\ws-commons-util-1.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\xmlrpc-client.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\xmlrpc-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\XmlSchema-1.4.7.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator.libdependencies_9.4.9400.001\commons-logging.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator.libdependencies_9.4.9400.001\wsdl4j-1.6.2.jar;C:\Program Files\Collaborator Client\.\lib\activation.jar;C:\Program Files\Collaborator Client\.\lib\commons-cli-2.0-SNAPSHOT-553540.jar;C:\Program Files\Collaborator Client\.\lib\gwt-user.jar;C:\Program Files\Collaborator Client\.\lib\smartbear-ccollab-cmdline.jar;C:\Program Files\Collaborator Client\.\lib\smartbear-code-analysis.jar;
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.name:  sataev
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.specification.version:  1.8
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.java.command:  C:\Program Files\Collaborator Client\ccollab.exe
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.home:  c:\program files\java\jre1.8.0_66
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.arch.data.model:  32
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.launchName:  ccollab
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   user.language:  en
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.specification.vendor:  Oracle Corporation
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   awt.toolkit:  sun.awt.windows.WToolkit
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vm.info:  mixed mode
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   exe4j.unextractedPosition:  0
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.version:  1.8.0_66
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.ext.dirs:  c:\program files\java\jre1.8.0_66\lib\ext;C:\Windows\Sun\Java\lib\ext
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.boot.class.path:  c:\program files\java\jre1.8.0_66\lib\resources.jar;c:\program files\java\jre1.8.0_66\lib\rt.jar;c:\program files\java\jre1.8.0_66\lib\sunrsasign.jar;c:\program files\java\jre1.8.0_66\lib\jsse.jar;c:\program files\java\jre1.8.0_66\lib\jce.jar;c:\program files\java\jre1.8.0_66\lib\charsets.jar;c:\program files\java\jre1.8.0_66\lib\jfr.jar;c:\program files\java\jre1.8.0_66\classes
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   install4j.appDir:  C:\Program Files\Collaborator Client\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor:  Oracle Corporation
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.stderr.encoding:  cp866
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   file.separator:  \
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   java.vendor.url.bug:  http://bugreport.sun.com/bugreport/
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.io.unicode.encoding:  UnicodeLittle
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.cpu.endian:  little
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.stdout.encoding:  cp866
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   collab.install.dir:  C:\Program Files\Collaborator Client\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.desktop:  windows
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+FINE:   sun.cpu.isalist:  pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86
+Nov 26, 2015 4:00:53 PM com.smartbear.util.EnvironmentUtils logEnvironment
+FINE: Logging environment variables.
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   LOCALAPPDATA:  C:\Users\sataev\AppData\Local
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_LEVEL:  6
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   FP_NO_HOST_CHECK:  NO
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERDOMAIN:  AQA
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   LOGONSERVER:  \\DOWNHILL
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROMPT:  $P$G
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SESSIONNAME:  Console
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ALLUSERSPROFILE:  C:\ProgramData
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_ARCHITECTURE:  x86
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PYTHON:  C:\Python27\python.exe
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PSModulePath:  C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SystemDrive:  C:
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =ExitCode:  00000000
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   asl.log:  Destination=file
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   VS100COMNTOOLS:  c:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =C::  C:\TMP
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   APPDATA:  C:\Users\sataev\AppData\Roaming
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERNAME:  sataev
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERDNSDOMAIN:  AQA.COM.RU
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   CommonProgramFiles:  C:\Program Files\Common Files
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   Path:  C:\ProgramData\Oracle\Java\javapath;__SVN__;C:\Python27\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Collaborator Client;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseHg\;C:\Program Files\Skype\Phone\;c:\program files\java\jre1.8.0_66\bin
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   GIT_SSH:  C:\Program Files\TortoiseGit\bin\TortoiseGitPlink.exe
+Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PATHEXT:  .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   OS:  Windows_NT
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   COMPUTERNAME:  SATAEV
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SVN_SSH:  C:\Program Files\TortoiseGit\bin\TortoiseGitPlink.exe
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_REVISION:  3c03
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ComSpec:  C:\Windows\system32\cmd.exe
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   home:  c:\users\sataev
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramData:  C:\ProgramData
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SB_PATH:  C:\GitSources\collab
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   HOMEPATH:  \Users\sataev
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   SystemRoot:  C:\Windows
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   TEMP:  C:\Users\sataev\AppData\Local\Temp
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   HOMEDRIVE:  C:
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PROCESSOR_IDENTIFIER:  x86 Family 6 Model 60 Stepping 3, GenuineIntel
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   USERPROFILE:  C:\Users\sataev
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   TMP:  C:\Users\sataev\AppData\Local\Temp
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   MOZ_DISABLE_OOP_PLUGINS:  1
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   ProgramFiles:  C:\Program Files
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   PUBLIC:  C:\Users\Public
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   NUMBER_OF_PROCESSORS:  8
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   windir:  C:\Windows
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   VBOX_INSTALL_PATH:  C:\Program Files\Oracle\VirtualBox\
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   =:::  ::\
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   AQtime8Install:  C:\Program Files\SmartBear\AQtime 8
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI doMain
+FINE: End of cmdline parsing pass #1 - resolved command: ccollab admin config remote-system-integration create
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI doMain
+FINE: resolved global-options: GlobalOptions: {
+   debug = true
+   editor = (Empty)
+   editor-prompt = false
+   nobrowser = false
+   no-browser = false
+   non-interactive = false
+   password = (Empty)
+   pause-on-error = false
+   profile = (Empty)
+   quiet = false
+   server-login = jsmith
+   server-proxy-host = (Empty)
+   server-proxy-port = (Empty)
+   server-url = http://127.0.0.1:8080
+   url = http://127.0.0.1:8080
+   use-json-api = true
+   use-legacy-api = false
+   user = jsmith
+   user-provided-auth = false
+   verbose = true
+
+}
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI doMain
+FINE: resolved scm-options: ScmOptions: {
+   current-directory = (Empty)
+   global-provider = (Empty)
+   scm = (Empty)
+
+   (AccuRev only)
+      accurev-depot = (Empty)
+      accurev-exe = accurev
+      accurev-anc-algorithm = (Empty)
+
+   (ClearCase only)
+      ccrc-server-url = (Empty)
+      ccrc-user = (Empty)
+      ccrc-passwd = (Empty)
+      clearcase-exe = (Empty)
+      clearcase-update-snapshot = false
+      clearcase-view-directory = (Empty)
+
+   (CVS only)
+      cvs-exe = cvs
+      cvsroot = (Empty)
+
+   (Git only)
+      git-exe = C:\Program Files\Git\bin\git.exe
+      git-repository = (Empty)
+      git-skip-index = false
+
+   (Mercurial only)
+      mercurial-exe = hg
+
+   (Perforce only)
+      p4 = (Empty)
+      p4port = (Empty)
+      p4user = (Empty)
+      p4passwd = (Empty)
+      p4client = (Empty)
+      p4-ignore-integration-history = false
+      p4-protects-script = (Empty)
+      p4charset = (Empty)
+      p4-require-empty-default-changelist = false
+      p4-change-content-trigger = false
+      p4-specify-command-charset = true
+      p4-test-p4java = false
+
+   (PTC Integrity only)
+      mks-host = (Empty)
+      mks-port = (Empty)
+      mks-user = (Empty)
+      mks-passwd = (Empty)
+      mks-expand-keywords = true
+
+   (Rational Synergy only)
+      ccm-exe = ccm
+      ccm-user = (Empty)
+      ccm-passwd = (Empty)
+      ccm-engine-host = (Empty)
+      ccm-database-path = (Empty)
+      ccm-local-database-path = (Empty)
+      ccm-remote-client = false
+      ccm-server-url = (Empty)
+
+   (Rational Team Concert only)
+      rtc-repository-uri = (Empty)
+      rtc-username = (Empty)
+      rtc-password = (Empty)
+      add-assignments = (Empty)
+      remove-assignments = (Empty)
+      approve-assignments = (Empty)
+      rtc-impl = (Empty)
+
+   (Subversion only)
+      svn-exe = svn
+      svn-look-exe = (Empty)
+      svn-repo-url = (Empty)
+      svn-user = (Empty)
+      svn-passwd = (Empty)
+      svn-require-client-certificate-password = false
+      svn-auto-add = false
+      svn-recurse-externals = false
+      repo = (Empty)
+      svn-repo-path = (Empty)
+      svn-test-javahl = false
+
+   (Team Foundation Server only)
+      tfs-collection = (Empty)
+      tfs-server = (Empty)
+      tfs-exe = (Empty)
+      tfs-user = (Empty)
+      tfs-passwd = (Empty)
+
+}
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI parseCommandOptions
+FINE: created command object: com.smartbear.ccollab.client.commands.admin.config.CommandRemoteSystemIntegrationCreate@1930714
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI parseCommandOptions
+FINE: parsed command-options
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-type:  jira
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-title:  A New JIRA
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-config:  {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: Loading bean com.smartbear.ccollab.client.commands.admin.config.CommandRemoteSystemIntegrationCreate@1930714 from map
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-type:  jira
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-title:  A New JIRA
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-config:  {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-type:  jira
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-title:  A New JIRA
+Nov 26, 2015 4:00:54 PM com.smartbear.util.LoggingUtils logMap
+FINE:   remote-system-config:  {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property remotesystemconfig
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}
+Nov 26, 2015 4:00:54 PM org.apache.commons.beanutils.ConvertUtilsBean convert
+FINE: Convert string '{"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}' to class 'java.lang.String'
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property remotesystemtitle
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is A New JIRA
+Nov 26, 2015 4:00:54 PM org.apache.commons.beanutils.ConvertUtilsBean convert
+FINE: Convert string 'A New JIRA' to class 'java.lang.String'
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: A New JIRA
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: normalized map contains normalized property remotesystemtype
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: raw value of property in map is jira
+Nov 26, 2015 4:00:54 PM org.apache.commons.beanutils.ConvertUtilsBean convert
+FINE: Convert string 'jira' to class 'java.lang.String'
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: converted raw value in to typed value: jira
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils set
+FINE: loaded typed value in to bean
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ValidateBeanUtils loadFromMap
+FINE: map remaining: {}
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI doMain
+FINE: End of cmdline parsing pass #2 - created and initialized command: com.smartbear.ccollab.client.commands.admin.config.CommandRemoteSystemIntegrationCreate@1930714
+Nov 26, 2015 4:00:54 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Connecting to Collaborator Server http://127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.CLI jsonlogin
+FINE: Establishing connection to Collaborator server
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils checkConnectionSettings
+FINE: connecting to server with url='http://127.0.0.1:8080/xmlrpc/secure' user='jsmith' password='(blank)'
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.cookie-policy = default
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.element-charset = US-ASCII
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.content-charset = ISO-8859-1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@400542
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.authentication.preemptive = true
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.useragent = Collaborator 9.4.9400
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Java version: 1.8.0_66
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Java vendor: Oracle Corporation
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Java class path: C:\Program Files\Collaborator Client\.install4j\i4jruntime.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\asm-all-3.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\com.microsoft.tfs.sdk-11.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-beanutils-core.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-codec-1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-httpclient.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-io.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\commons-lang.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\cxf-2.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-activation_1.1_spec-1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-annotation_1.0_spec-1.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-javamail_1.4_spec-1.7.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-jaxws_2.2_spec-1.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-stax-api_1.0_spec-1.0.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\geronimo-ws-metadata_2.0_spec-1.1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\guava-11.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\gwt-user.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-annotations-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-core-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-databind-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jackson-module-mrbean-2.2.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jaxb-api-2.2.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jaxb-impl-2.2.1.1.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jsr173_1.0_api.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\jsr173_1.0_ri.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\mksapi.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\neethi-2.0.4.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\saaj-api-1.3.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\saaj-impl-1.3.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-client-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-datamodel.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-ccollab-soap.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-code-analysis.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\smartbear-scm.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\stax2-api-3.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-core-asl-4.0.8.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-core-2.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-rng-datatype-1.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\woodstox-msv-xsdlib-2.0.0.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\ws-commons-util-1.0.2.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\xmlrpc-client.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\xmlrpc-common.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator_9.4.9400.001\libs\XmlSchema-1.4.7.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator.libdependencies_9.4.9400.001\commons-logging.jar;C:\Program Files\Collaborator Client\.\ui\plugins\com.smartbear.collaborator.libdependencies_9.4.9400.001\wsdl4j-1.6.2.jar;C:\Program Files\Collaborator Client\.\lib\activation.jar;C:\Program Files\Collaborator Client\.\lib\commons-cli-2.0-SNAPSHOT-553540.jar;C:\Program Files\Collaborator Client\.\lib\gwt-user.jar;C:\Program Files\Collaborator Client\.\lib\smartbear-ccollab-cmdline.jar;C:\Program Files\Collaborator Client\.\lib\smartbear-code-analysis.jar;
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Operating system name: Windows 7
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Operating system architecture: x86
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: Operating system version: 6.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunRsaSign 1.8: Sun RSA signature provider
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunPCSC 1.8: Sun PC/SC provider
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpClient <clinit>
+FINE: SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'clientguid' = '46cbff929ede1eed24a8295bcd754646' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.default-headers = [X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646
+, X-Smart-Bear-Build: 9400
+, WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81
+]
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector executeMethod
+FINE: Preemptively sending default basic credentials
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector authenticateHost
+FINE: Authenticating with BASIC <any realm>@127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.HttpMethodParams getCredentialCharset
+FINE: Credential charset not configured, using HTTP element charset
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST /xmlrpc/secure HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Apache XML RPC 3.0 (Jakarta Commons httpclient Transport)[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Build: 9400[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Authorization: Basic ********[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 183[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "<?xml version="1.0" encoding="UTF-8"?><methodCall xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><methodName>ccollab4.getServerVersion</methodName><params/></methodCall>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Set-Cookie: JSESSIONID=34A75EEA44FB93C5A94CB400B41E087B; Path=/[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Expires: Tue, 31 Dec 1997 23:59:59 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Pragma: private[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Cache-Control: must-revalidate[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 192[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+FINE: Cookie accepted: "$Version=0; JSESSIONID=34A75EEA44FB93C5A94CB400B41E087B; $Path=/"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "x"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "m"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "l version="1.0" encoding="UT"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "F"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "-"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "8"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << """
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << ">"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><i4>9400</i4></value></param></params></methodResponse>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.datamodel.xmlrpc.XmlRpcClientEngineImplementation$1 apply
+FINE: Login ticket received from server.
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST http://127.0.0.1:8080/services/json/v1?debug=true HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 71[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[{"command":"ServerInfoService.getMinimumJavaClientBuild","args":null}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+FINE: Buffering response body
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[{"result":{"minimumJavaClientBuild":7024}},{"debugLogId":"9052244418213146691"}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@883b155 pairs: {GET /services/jsonDebugLog?id=9052244418213146691 HTTP/1.1: null}{User-Agent: Java/1.8.0_66}{Host: 127.0.0.1:8080}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@1641d395 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/plain}{Transfer-Encoding: chunked}{Date: Thu, 26 Nov 2015 13:00:54 GMT}
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.authentication.preemptive = true
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.useragent = Collaborator 9.4.9400
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.default-headers = [X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646
+, X-Smart-Bear-Build: 9400
+, WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81
+]
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector executeMethod
+FINE: Preemptively sending default basic credentials
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector authenticateHost
+FINE: Authenticating with BASIC <any realm>@127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.HttpMethodParams getCredentialCharset
+FINE: Credential charset not configured, using HTTP element charset
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST /xmlrpc/secure HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Apache XML RPC 3.0 (Jakarta Commons httpclient Transport)[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Build: 9400[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Authorization: Basic ********[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 192[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "<?xml version="1.0" encoding="UTF-8"?><methodCall xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><methodName>ccollab4.getMinimumJavaClientBuild</methodName><params/></methodCall>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Set-Cookie: JSESSIONID=CDC72477ECA2620E51B8C001A334E1CD; Path=/[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Expires: Tue, 31 Dec 1997 23:59:59 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Pragma: private[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Cache-Control: must-revalidate[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 192[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+FINE: Cookie accepted: "$Version=0; JSESSIONID=CDC72477ECA2620E51B8C001A334E1CD; $Path=/"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "x"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "m"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "l version="1.0" encoding="UT"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "F"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "-"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "8"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << """
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << ">"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><i4>7024</i4></value></param></params></methodResponse>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.datamodel.xmlrpc.XmlRpcClientEngineImplementation$1 apply
+FINE: Login ticket received from server.
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils checkServerBuildHighEnough
+FINE: Current server version: 9400
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils checkClientCompatibility
+FINE: Current client version: 9400
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.authentication.preemptive = true
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.useragent = Collaborator 9.4.9400
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.default-headers = [X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646
+, X-Smart-Bear-Build: 9400
+, WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81
+]
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.DefaultHttpParams setParameter
+FINE: Set parameter http.protocol.version = HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector executeMethod
+FINE: Preemptively sending default basic credentials
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodDirector authenticateHost
+FINE: Authenticating with BASIC <any realm>@127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.params.HttpMethodParams getCredentialCharset
+FINE: Credential charset not configured, using HTTP element charset
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST /xmlrpc/secure HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Apache XML RPC 3.0 (Jakarta Commons httpclient Transport)[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Client-GUID: 46cbff929ede1eed24a8295bcd754646[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "X-Smart-Bear-Build: 9400[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Authorization: Basic ********[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 186[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "<?xml version="1.0" encoding="UTF-8"?><methodCall xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><methodName>ccollab4.getLicensedFeatures</methodName><params/></methodCall>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Set-Cookie: JSESSIONID=EF4A29D509946E6AF2534F4583570442; Path=/[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "WWW-authenticate-CodeCollabTicket: 2af67433c84aa5d99b595cc4156cfd81[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "X-FRAME-OPTIONS: SAMEORIGIN[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Expires: Tue, 31 Dec 1997 23:59:59 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Pragma: private[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Cache-Control: must-revalidate[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: text/xml[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 4260[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase processCookieHeaders
+FINE: Cookie accepted: "$Version=0; JSESSIONID=EF4A29D509946E6AF2534F4583570442; $Path=/"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "x"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "m"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "l version="1.0" encoding="UT"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "F"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "-"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "8"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << """
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "?"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << ">"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "<methodResponse xmlns:ex="http://ws.apache.org/xmlrpc/namespaces/extensions"><params><param><value><struct><member><name>supportsCustomizableNotifications</name><value><boolean>1</boolean></value></member><member><name>getFavoritesIconPath</name><value>i/cc.ico</value></member><member><name>getSecondaryName</name><value></value></member><member><name>supportsReports</name><value><boolean>1</boolean></value></member><member><name>supportsChecklists</name><value><boolean>1</boolean></value></member><member><name>supportsExternalLinks</name><value><boolean>1</boolean></value></member><member><name>supportsInProductManual</name><value><boolean>1</boolean></value></member><member><name>isCommunityPageEnabled</name><value><boolean>0</boolean></value></member><member><name>collectsMetrics</name><value><boolean>1</boolean></value></member><member><name>getSupportedDatabaseTokens</name><value><array><data><value>HSQL Database Engine</value><value>MySQL</value><value>Oracle</value><value>Microsoft SQL Server</value></data></array></value></member><member><name>getToken</name><value>enterprise</value></member><member><name>receivesSupport</name><value><boolean>1</boolean></value></member><member><name>supportsSystemWideMessage</name><value><boolean>1</boolean></value></member><member><name>supportsMultipleWorkflows</name><value><boolean>1</boolean></value></member><member><name>supportsEclipse</name><value><boolean>1</boolean></value></member><member><name>supportsReviewCustomFields</name><value><boolean>1</boolean></value></member><member><name>canRestrictAccessToSystemDump</name><value><boolean>1</boolean></value></member><member><name>supportsDocumentDiff</name><value><boolean>1</boolean></value></member><member><name>canRestrictAccessToReviewContent</name><value><boolean>1</boolean></value></member><member><name>getPrimaryName</name><value>Collaborator</value></member><member><name>supportsDocumentReview</name><value><boolean>1</boolean></value></member><member><name>canRestrictAccessToFixDefect</name><value><boolean>1</boolean></value></member><member><name>supportsExternalAuthentication</name><value><boolean>1</boolean></value></member><member><name>getCreateUserSubtext</name><value>Should be the same as your version control login.</value></member><member><name>canChangePublicUrl</name><value><boolean>1</boolean></value></member><member><name>supportsAttachUrl</name><value><boolean>1</boolean></value></member><member><name>canConfigureLicensing</name><value><boolean>1</boolean></value></member><member><name>canConfigureSmtpServer</name><value><boolean>1</boolean></value></member><member><name>getStyleName</name><value>collaborator</value></member><member><name>supportsFileArchiving</name><value><boolean>1</boolean></value></member><member><name>canDisablePublicCreateUserForm</name><value><boolean>1</boolean></value></member><member><name>supportsSpreadsheetReview</name><value><boolean>1</boolean></value></member><member><name>canDisableCommunityPage</name><value><boolean>1</boolean></value></member><member><name>getName</name><value>Collaborator</value></member><member><name>getSupportedScmTokens</name><value><array><data><value>subversion</value><value>cvs</value><value>perforce</value><value>clearcase</value><value>tfs</value><value>accurev</value><value>mercurial</value><value>git</value><value>synergy</value><value>rtc</value><value>mks</value></data></array></value></member><member><name>supportsElectronicSignatures</name><value><boolean>1</boolean></value></member><member><name>supportsGroups</name><value><boolean>1</boolean></value></member><member><name>supportsParticipantCustomFields</name><value><boolean>1</boolean></value></member><member><name>supportsServerSideTriggers</name><value><boolean>1</boolean></value></member><member><name>supportsDefectCustomFields</name><value><boolean>1</boolean></value></member><member><name>supportsReviewDeadlines</name><value><boolean>1</boolean></value></member><member><name>canRestrictUploadToReviewContent</name><value><boolean>1</boolean></value></member><member><name>supportsStalledReviewNotifications</name><value><boolean>1</boolean></value></member></struct></value></param></params></methodResponse>"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.datamodel.xmlrpc.XmlRpcClientEngineImplementation$1 apply
+FINE: Login ticket received from server.
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: client version: Collaborator version 9.4.9400.001
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Connected to server build 9400
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST http://127.0.0.1:8080/services/json/v1?debug=true HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 205[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[{"command":"ServerInfoService.getSystemGlobalValues","args":{"systemGlobalValuesNames":["license-company-key","license-node-id","license-fixed-seats","license-floating-seats","license-expiration-date"]}}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 229[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+FINE: Buffering response body
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[{"result":{"systemGlobalValues":{"license-node-id":"3F81076B","license-fixed-seats":"-1","license-company-key":"trial","license-floating-seats":"-1","license-expiration-date":"1449878400"}}},{"debugLogId":"3664724535430707412"}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@430e6c5 pairs: {GET /services/jsonDebugLog?id=3664724535430707412 HTTP/1.1: null}{User-Agent: Java/1.8.0_66}{Host: 127.0.0.1:8080}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@112aa7c5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/plain}{Transfer-Encoding: chunked}{Date: Thu, 26 Nov 2015 13:00:54 GMT}
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license company key: trial
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license node ID: 3F81076B
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license fixed seats:-1
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license floating seats: -1
+Nov 26, 2015 4:00:54 PM com.smartbear.ccollab.client.LoginUtils establishJsonConnection
+FINE: Server license upgrades until: 2015-12-12T03:00:00+03:00
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST http://127.0.0.1:8080/services/json/v1?debug=true HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 69[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[{"command":"UserService.findUserByLogin","args":{"login":"jsmith"}}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 210[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+FINE: Buffering response body
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[{"result":{"enabled":true,"fullName":"John Smith","login":"jsmith","email":"artem.sataev@smartbear.com","guid":"f603a3101178bbe31ad55a61edefa90a","phone":"","admin":true}},{"debugLogId":"5674128867173606116"}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@10378a45 pairs: {GET /services/jsonDebugLog?id=5674128867173606116 HTTP/1.1: null}{User-Agent: Java/1.8.0_66}{Host: 127.0.0.1:8080}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@f006935 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/plain}{Transfer-Encoding: chunked}{Date: Thu, 26 Nov 2015 13:00:54 GMT}
+Nov 26, 2015 4:00:54 PM com.smartbear.progress.CommandLineProgressMonitor setTaskName
+FINE: Connected as: John Smith (jsmith)
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: Loading preferences: C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt exists
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils logConfigFile
+FINE: File C:\Users\sataev\.smartbear\com.smartbear.ccollab.client.txt can be read
+Nov 26, 2015 4:00:54 PM com.smartbear.beans.ConfigUtils loadRaw
+FINE: Loaded 'loginticketid' = '2af67433c84aa5d99b595cc4156cfd81' from config file
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection open
+FINE: Open connection to 127.0.0.1:8080
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "POST http://127.0.0.1:8080/services/json/v1?debug=true HTTP/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase addHostRequestHeader
+FINE: Adding Host request header
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Host: 127.0.0.1:8080[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Length: 565[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: >> "[{"command":"SessionService.setMetadata","args":{"clientName":"46cbff929ede1eed24a8295bcd754646","expectedServerVersion":"9400"}},{"command":"SessionService.authenticate","args":{"ticket":"2af67433c84aa5d99b595cc4156cfd81","login":"jsmith"}},{"command":"SystemAdminService.createRemoteSystemIntegration","args":{"token":"jira","title":"A New JIRA","config":"{\"url\":\"http://jira.example.com\",\"username\":\"admin\",\"password\":\"admin\",\"updateReviewPhase\":true,\"updateReviewParticipants\":true,\"projects\":\"\",\"issueType\":\"Bug\",\"projectList\":[]}"}}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.methods.EntityEnclosingMethod writeRequestBody
+FINE: Request body sent
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "HTTP/1.1 200 OK[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Server: Apache-Coyote/1.1[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Type: application/json;charset=utf-8[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Content-Length: 86[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "Date: Thu, 26 Nov 2015 13:00:54 GMT[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[\r][\n]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+FINE: Buffering response body
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.Wire wire
+FINE: << "[{"result":{}},{"result":{}},{"result":{"id":5}},{"debugLogId":"8114911922127810509"}]"
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Resorting to protocol version default close connection policy
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpMethodBase shouldCloseConnection
+FINE: Should NOT close connection, using HTTP/1.1
+Nov 26, 2015 4:00:54 PM org.apache.commons.httpclient.HttpConnection releaseConnection
+FINE: Releasing connection back to connection manager.
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection writeRequests
+FINE: sun.net.www.MessageHeader@1330d4f5 pairs: {GET /services/jsonDebugLog?id=8114911922127810509 HTTP/1.1: null}{User-Agent: Java/1.8.0_66}{Host: 127.0.0.1:8080}{Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2}{Connection: keep-alive}
+Nov 26, 2015 4:00:54 PM sun.net.www.protocol.http.HttpURLConnection getInputStream0
+FINE: sun.net.www.MessageHeader@166c0fb5 pairs: {null: HTTP/1.1 200 OK}{Server: Apache-Coyote/1.1}{Content-Type: text/plain}{Transfer-Encoding: chunked}{Date: Thu, 26 Nov 2015 13:00:54 GMT}
