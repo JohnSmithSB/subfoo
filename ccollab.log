@@ -1,6 +1,7 @@
 Nov 26, 2015 4:00:53 PM com.smartbear.ccollab.CLI enableDebug
 FINE: client version: Collaborator version 9.4.9400.001
 Nov 26, 2015 4:00:53 PM com.smartbear.ccollab.CLI enableDebug
+
 FINE: Parsed command from arguments: [admin, config, remote-system-integration, create, jira, A New JIRA, {"url":"http://jira.example.com","username":"admin","password":"admin","updateReviewPhase":true,"updateReviewParticipants":true,"projects":"","issueType":"Bug","projectList":[]}]
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logVmMemory
 FINE: VM Max Memory: 259522560
@@ -11,6 +12,7 @@ FINE: Logging System Properties
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   java.runtime.name:  Java(TM) SE Runtime Environment
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+
 FINE:   com.microsoft.tfs.jni.native.base-directory:  C:\Program Files\Collaborator Client\/ui/plugins/com.smartbear.collaborator_9.4.9400.001/libs/native
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   exe4j.moduleName:  C:\Program Files\Collaborator Client\ccollab.exe
@@ -29,6 +31,7 @@ FINE:   exe4j.consoleCodepage:  cp866
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   path.separator:  ;
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+
 FINE:   java.util.logging.config.file:  C:\Program Files\Collaborator Client\/ccollab.logging.properties
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   java.vm.name:  Java HotSpot(TM) Client VM
@@ -70,6 +73,7 @@ FINE:   os.name:  Windows 7
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   sun.jnu.encoding:  Cp1251
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
+
 FINE:   java.library.path:  C:\ProgramData\Oracle\Java\javapath;__SVN__;C:\Python27\;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Collaborator Client;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseHg\;C:\Program Files\Skype\Phone\;c:\program files\java\jre1.8.0_66\bin
 Nov 26, 2015 4:00:53 PM com.smartbear.util.LoggingUtils logProperties
 FINE:   install4j.launcherId:  2
